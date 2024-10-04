@@ -121,6 +121,15 @@ else:
 
 cipher = initialize_cipher(key)
 
+def show_welcome():
+    print("********************************************")
+    print("*                                          *")
+    print("*      WELCOME TO YOUR PASSWORD MANAGER    *")
+    print("*                                          *")
+    print("********************************************\n")
+
+show_welcome()
+
 # Infinite loop to keep the program running until the user chooses to quit.
 while True:
     print("1. Register")
